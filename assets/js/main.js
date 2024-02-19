@@ -20,11 +20,11 @@ const discountMax = fullPrice * 0.4
 
 
 if(travelerAge < 18){
-    price = (fullPrice - (discountMin)).toFixed(2)
+    price = (fullPrice - discountMin).toFixed(2)
 }
 //price for <18
 
-else if (travelerAge => 65){
+else if (travelerAge > 65){
     price = (fullPrice - (discountMax)).toFixed(2)
 }
 //price for =>65
