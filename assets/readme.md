@@ -15,7 +15,7 @@ Step 3
   -Chiedere al passeggero l'eta'
 
 Step 4
-  -Inserire un variabile 
+  -Inserire un variabile per lo sconto
 
 Step 5
   -Apllicare un sconto in base all'eta'
